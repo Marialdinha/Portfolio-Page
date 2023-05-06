@@ -10,8 +10,8 @@ My Prtifolio Website <br /> <br />  <br />
 ## Description
 This project showcases my personal portifolio.<br /> <br />  <br />
 
-##Screenshot
+## Screenshot
 <br /> <br />  <br />
 
-##Link
+## Link
 <br /> <br />  <br />
