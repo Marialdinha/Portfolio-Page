@@ -75,12 +75,14 @@ a {
 .content {
     /* … */
     width: 100%;
-    display:grid;
+    display:grid; 
 }
+
 
 .content_section{
     display: flex;
     padding: 15px;
+    width: 100%;
 }
 
 .content_h2{
@@ -94,15 +96,53 @@ a {
 .content_h2_div {
     /* … */
     /* display: inline-block; */
-    display: row;
-    padding-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 30px;
     border-left: black;
     border-left: solid;
     margin-left: 10px;
 }
 
-.picture1{
-    background-size: cover; 
+.pictures{
+    display: flex;
+    align-items: flex-end;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+#Pic1{
+    flex-basis: 100%;
+    min-height: 300px;
+    min-width: 800px;
+    background-image: url('../images/Background1.jpeg');
+   
+}
+
+#Pic2{
+    flex-basis: 50%;
+    min-height: 200px;
+    background-image: url('../images/Background2.jpeg');
+}
+
+#Pic3{
+    flex-basis: 50%;
+    min-height: 200px;
+    background-image: url('../images/Background3.jpeg');
+}
+
+#Pic4{
+    flex-basis: 50%;
+    min-height: 200px;
+    background-image: url('../images/Background4.jpeg');
+}
+
+#Pic5{
+    flex-basis: 50%;
+    min-height: 200px;
+    background-image: url('../images/Background5.jpeg');
 }
 
 main section ul li {
