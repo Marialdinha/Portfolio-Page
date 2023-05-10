@@ -148,8 +148,7 @@ header a {
 }
 
 .pictures h3{
-padding: 15px;
-
+padding: 5px;
 }
 
 #Pic1{
@@ -157,31 +156,35 @@ padding: 15px;
     min-height: 300px;
     min-width: 800px;
     background-image: url('../images/Background1.jpeg');
- 
+    color:rgb(164, 163, 167) ; 
 }
 
 #Pic2{
     flex-basis: 50%;
     min-height: 200px;
     background-image: url('../images/Background2.jpeg');
+    color:rgb(77, 76, 79) ; 
 }
 
 #Pic3{
     flex-basis: 50%;
     min-height: 200px;
     background-image: url('../images/Background3.jpeg');
+    color:rgb(77, 76, 79) ; 
 }
 
 #Pic4{
     flex-basis: 50%;
     min-height: 200px;
     background-image: url('../images/Background4.jpeg');
+    color:rgb(77, 76, 79) ; 
 }
 
 #Pic5{
     flex-basis: 50%;
     min-height: 200px;
     background-image: url('../images/Background5.jpeg');
+    color:rgb(77, 76, 79) ; 
 }
 
 main section ul li {
