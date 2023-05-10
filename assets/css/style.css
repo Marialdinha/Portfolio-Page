@@ -1,4 +1,8 @@
 /* || GENERIC STYLING */
+
+:root{
+    --project_color:rgb(63, 62, 64);
+}
 * {
     box-sizing: border-box;
     padding: 0;
@@ -109,6 +113,7 @@ header a {
     /* … */
     width:80%;
     display:grid; 
+    margin-left: 10%;
 }
 
 
@@ -117,6 +122,7 @@ header a {
     display: flex;
     padding: 15px;
     width: 100%;
+   
 }
 
 .content_h2{
@@ -148,7 +154,8 @@ header a {
 }
 
 .pictures h3{
-padding: 5px;
+padding: 15px;
+font-size: 18px;
 }
 
 #Pic1{
@@ -156,35 +163,35 @@ padding: 5px;
     min-height: 300px;
     min-width: 800px;
     background-image: url('../images/Background1.jpeg');
-    color:rgb(164, 163, 167) ; 
+    color:rgb(176, 175, 180) ; 
 }
 
 #Pic2{
     flex-basis: 50%;
     min-height: 200px;
     background-image: url('../images/Background2.jpeg');
-    color:rgb(77, 76, 79) ; 
+    color:var(--project_color);
 }
 
 #Pic3{
     flex-basis: 50%;
     min-height: 200px;
     background-image: url('../images/Background3.jpeg');
-    color:rgb(77, 76, 79) ; 
+    color:var(--project_color);
 }
 
 #Pic4{
     flex-basis: 50%;
     min-height: 200px;
     background-image: url('../images/Background4.jpeg');
-    color:rgb(77, 76, 79) ; 
+    color:var(--project_color); 
 }
 
 #Pic5{
     flex-basis: 50%;
     min-height: 200px;
     background-image: url('../images/Background5.jpeg');
-    color:rgb(77, 76, 79) ; 
+    color:var(--project_color);
 }
 
 main section ul li {
@@ -197,6 +204,18 @@ main a {
     /* … */
     color: black;
     text-decoration: none; 
+}
+
+#contact-me a {
+    /* … */
+    color: black;
+    text-decoration: none; 
+    font-size: 20px;  
+}
+
+#contact-me ul{
+    /* … */
+    padding-top: 5%;
 }
 
 /* FOOTER */
