@@ -15,4 +15,4 @@ In this modulo I learned advanced CSS, including: Media Query, Flexbox and Respo
  ![Web page screenshot](./assets/images/Portifolio_Page.png) <br /> <br /> <br />
 
 ## Link
-https://marialdinha.github.io/Portfolio-Page/![Uploading image.png…]()
+https://marialdinha.github.io/Portfolio-Page/
