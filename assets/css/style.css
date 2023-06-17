@@ -165,8 +165,9 @@ font-size: 18px;
     flex-basis: 100%;
     min-height: 300px;
     min-width: 300px;
-    background-image: url('../images/Background1.jpeg');
-    color:rgb(176, 175, 180) ; 
+    background-image: url('../images/image-1.png');
+    color:rgb(232, 229, 241) ; 
+    padding-left: 300px;
 }
 
 #Pic2{
