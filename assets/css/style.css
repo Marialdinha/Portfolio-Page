@@ -148,6 +148,10 @@ header a {
     flex: 90%;
 }
 
+.left {
+ float: left;
+ padding: 0 10px 0 0;
+ height: 100px;}
 
 .pictures{
     display: flex;
