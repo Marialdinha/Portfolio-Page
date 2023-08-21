@@ -177,7 +177,7 @@ font-size: 18px;
 #Pic2{
     flex-basis: 50%;
     min-height: 200px;
-    background-image: url('../images/Background2.jpeg');
+    background-image: url('../images/Project2-travelogue.png');
     color:var(--project_color);
 }
 
